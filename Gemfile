@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
+
+git_source(:github) {|repo_name| "https://github.com/Firooz-Bright/second_CLI.git" }
+
 # Specify your gem's dependencies in news_line.gemspec
 gemspec
-
-gem "rake", "~> 12.0"
-gem "rspec", "~> 3.0"

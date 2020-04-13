@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#require 'open-uri'
+require 'nokogiri'
+require './lib/news_line'
+require "bundler/setup"
+
+ puts "hello to new project"
+
+NewsLine::Article.new
+NewsLine::News.new
